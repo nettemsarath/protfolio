@@ -1,0 +1,7 @@
+body {
+    font-size: 18px; /* Default font size */
+    font-family: 'Roboto', sans-serif; /* Default font family */
+    line-height: 1.5; /* Improves readability */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }

@@ -1,0 +1,44 @@
+.about {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.about-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-photo > img {
+  height: 380px;
+}
+
+.about-info {
+  padding-top: 20px;
+  font-size: 1.2em; /* Base font size */
+  line-height: 1.5; /* Line height for better readability */
+}
+
+.info-name {
+  font-size: 32px;
+  color: red;
+}
+
+@media screen and (max-width: 720px) {
+  .about-top {
+    /* font-size: 16px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+  .about-photo > img {
+    height: 280px;
+  }
+  .about-info {
+    font-size: 20px;
+  }
+  .info-name {
+    font-size: 26px;
+  }
+}

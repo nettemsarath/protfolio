@@ -1,0 +1,44 @@
+.section-title {
+  font-weight: 800;
+  font-size: 26px;
+}
+
+.techstacks-container {
+  padding: 1rem 0rem;
+}
+
+.techstacks-section {
+  display: flex;
+  margin: 2.5rem 0rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.techstacks-section-title {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.techstacks-list {
+  display: flex;
+  gap: 1.3rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.techstacks-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 720px) {
+  .techstacks-section-title {
+    text-align: center;
+  }
+  .techstacks-section {
+    flex-direction: column;
+  }
+}

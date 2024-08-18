@@ -1,0 +1,16 @@
+.social-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icon-div > img {
+  height: 40px;
+}
+
+@media screen and (max-width: 720px) {
+  .social-icon-div > img {
+    height: 32px;
+  }
+}

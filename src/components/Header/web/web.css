@@ -1,0 +1,44 @@
+.web {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.web_option {
+  font-size: 18px;
+  margin-right: 16px;
+  font-weight: 700;
+}
+
+.web_option:last-child {
+  margin-right: 0px;
+}
+
+.web_option a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #4f4fd0; /* A more specific blue shade */
+  font-family: 'Roboto', sans-serif; /* Assuming Roboto is preferred */
+  font-size: 17px;
+  padding: 8px 12px; /* Adds some padding for a better click area */
+  border-radius: 4px; /* Softens the edges */
+  transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.web_option a:hover {
+  color: #ffffff; /* Changes text color on hover */
+  background-color: #00bfff; /* Adds a background color on hover */
+}
+
+.web_option-icon {
+  width: 18px; /* Slightly larger for better visibility */
+  height: 18px; /* Matching height for a square shape */
+  font-size: 18px; /* Adjusted to fit the new size */
+  margin-right: 8px; /* Increased margin for better spacing */
+  color: #333; /* Neutral color for versatility */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+  display: inline-flex; /* Aligns icon correctly within text */
+  align-items: center; /* Centers icon vertically */
+  justify-content: center; /* Centers icon horizontally */
+}

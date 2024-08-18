@@ -1,0 +1,17 @@
+.work_company {
+  width: 400px;
+}
+
+.work_company_title {
+  margin-bottom: 1rem;
+  line-height: 20px;
+}
+
+.work_company_title-name {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.work_company-duration {
+  opacity: 0.6;
+}
